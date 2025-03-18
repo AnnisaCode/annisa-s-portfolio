@@ -111,10 +111,10 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: 'Memory Match Game',
-                desc: 'Test your memory skills by matching all the pairs of cards!',
-                image: 'https://images.unsplash.com/photo-1522152302542-71a8e5172aa1?auto=format&fit=crop&q=80&w=800&h=600',
-                link: 'https://annisacode.github.io/Memory-Match/'
+                title: 'Digital Library',
+                desc: 'A comprehensive digital library application for managing and accessing books.',
+                image: '/annisa-s-portfolio/images/digital-library.PNG',
+                link: 'https://annisacode.github.io/Digital-Library/'
               },
               {
                 title: 'Reminder App',
