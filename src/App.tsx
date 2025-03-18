@@ -123,10 +123,10 @@ function App() {
                 link: 'https://annisacode.github.io/Reminder-App/'
               },
               {
-                title: 'Content Management System',
-                desc: 'Easily manage and organize your content with our user-friendly CMS',
-                image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800&h=600',
-                link: 'https://annisacode.github.io/CMS-FrontEnd/'
+                title: 'POS System',
+                desc: 'Sistem Point of Sale yang efisien untuk manajemen penjualan.',
+                image: 'images/pos-system.png',
+                link: 'https://annisacode.github.io/POS-system/'
               }
             ].map((project, index) => (
               <div key={index} className="hidden-element group">
