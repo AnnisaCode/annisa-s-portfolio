@@ -124,8 +124,8 @@ function App() {
               },
               {
                 title: 'POS System',
-                desc: 'Sistem Point of Sale yang efisien untuk manajemen penjualan.',
-                image: 'images/pos-system.png',
+                desc: 'An efficient Point of Sale system for sales management.',
+                image: '/annisa-s-portfolio/images/pos-system.PNG',
                 link: 'https://annisacode.github.io/POS-system/'
               }
             ].map((project, index) => (
