@@ -114,7 +114,7 @@ function App() {
                 title: 'Digital Library',
                 desc: 'A comprehensive digital library application for managing and accessing books.',
                 image: '/annisa-s-portfolio/images/digital-library.PNG',
-                link: 'https://annisacode.github.io/Digital-Library/'
+                link: 'https://annisacode.github.io/digital-library/'
               },
               {
                 title: 'Reminder App',
