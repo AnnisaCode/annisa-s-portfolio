@@ -105,7 +105,7 @@ function App() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 bg-white">
+      {/* <section id="projects" className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-16">My Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -141,6 +141,54 @@ function App() {
                     </div>
                   </div>
                 </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section> */}
+
+      {/* Projects Section */}
+      <section id="projects" className="py-20 bg-white">
+        <div className="container mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-16">My Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            {[
+              {
+                title: "Preventive Maintenance FBMS 2 BP Batam",
+                type: "Professional Project",
+                period: "Jan 2024 - Dec 2024",
+                company: "PT Inti Digital Madani",
+                description: "Website maintenance project ensuring functionality, responsiveness, and visual appeal. Implemented updates, optimized performance, and resolved technical issues while collaborating with cross-functional teams.",
+                image: '/annisa-s-portfolio/images/FBMS.jpg',
+                skills: ["Maintenance", "Team Collaboration", "Web Development", "Performance Optimization"]
+              },
+              {
+                title: "Sistem Informasi LSP Polibatam",
+                type: "Academic Project",
+                period: "Aug 2020 - May 2021",
+                company: "Polibatam Software Team",
+                description: "Web-based Information System for the Certification Institute (LSP Polibatam). Developed using PHP, HTML, CSS, JavaScript, and SQL Server. Implemented features for certification management, user accounts, and reporting.",
+                image: '/annisa-s-portfolio/images/LSP.png',
+                skills: ["Responsive Web Design", "Full-stack Programming", "Database Design", "User Interface"]
+              }
+            ].map((project, index) => (
+              <div key={index} className="group">
+                <div className="relative overflow-hidden rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-auto object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="absolute bottom-0 p-6 text-white">
+                      <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                      <p className="text-sm">{project.description}</p>
+                      <p className="text-xs mt-2">{project.type}</p>
+                      <p className="text-xs mt-1">{project.period}</p>
+                      <p className="text-xs mt-1">{project.company}</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -193,7 +241,7 @@ function App() {
             </a>
           </div>
           <p className="text-gray-600 mb-2">Made with ❤️ by Annisa</p>
-          <p className="text-gray-500">© 2025 Annisa. All rights reserved.</p>
+          <p className="text-gray-500">© 2025 AnnisaCode. All rights reserved.</p>
         </div>
       </footer>
     </div>
