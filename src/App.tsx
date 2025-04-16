@@ -45,10 +45,10 @@ function App() {
           <div className="hidden-element space-y-6 max-w-2xl">
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
               Annisa
-              <span className="block text-blue-600">Software Engineer</span>
+              <span className="block text-blue-600">Front-End Web Developer</span>
             </h1>
             <p className="text-xl text-gray-600">
-              Building efficient, responsive, and user-friendly software solutions using modern technologies.
+              Passionate about creating intuitive user experiences through clean, responsive design and efficient frontend logic. Skilled in modern web development and report design, with experience using advanced tools and workflows to enhance development speed and code quality.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.linkedin.com/in/annisa1202/" target="_blank" rel="noopener noreferrer" className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center">
@@ -70,8 +70,7 @@ function App() {
           <div className="hidden-element max-w-4xl mx-auto text-center space-y-8">
             <h2 className="text-4xl font-bold">About Me</h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              As a versatile Software Engineer, I specialize in developing efficient, scalable, and user-centric software solutions. I focus on creating responsive, high-performance applications that deliver exceptional user experiences. By leveraging advanced tools and technologies, I streamline the development process, ensuring innovation, speed, and quality. My expertise spans both front-end and back-end development, enabling me to build comprehensive, end-to-end solutions tailored to meet business needs.
-            </p>
+              Detail-oriented IT graduate with practical experience in frontend web development and report design. Skilled in HTML, CSS, JavaScript, and experienced with tools like Crystal Reports and Pentaho. Currently focusing on modern frontend frameworks such as React, Next.js, and Tailwind CSS, while continuously adopting efficient tools and workflows to boost productivity and maintain high code quality. Passionate about crafting clean, responsive interfaces and solving problems through collaborative, efficient development. Eager to contribute to innovative web projects and grow as a frontend developer.            </p>
             <div className="flex justify-center space-x-6">
               {/* <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition-colors">
                 <Github size={24} />
@@ -90,9 +89,21 @@ function App() {
           <h2 className="text-4xl font-bold text-center mb-16">Technical Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { icon: <Layout className="w-8 h-8" />, title: 'Software Development', desc: 'Building efficient, scalable, and user-centric software solutions' },
-              { icon: <Cpu className="w-8 h-8" />, title: 'Full-Stack Development', desc: 'Expertise in both front-end and back-end technologies for end-to-end solutions' },
-              { icon: <Globe className="w-8 h-8" />, title: 'Responsive Design', desc: 'Creating seamless and adaptive experiences across devices and browsers' },
+              {
+                icon: <Layout className="w-8 h-8" />,
+                title: 'Frontend Development',
+                desc: 'Experienced with HTML, CSS, JavaScript, and currently focusing on React, Next.js, and Tailwind CSS to build clean, responsive interfaces.'
+              },
+              {
+                icon: <Cpu className="w-8 h-8" />,
+                title: 'Report Design',
+                desc: 'Skilled in creating structured and data-driven reports using Crystal Reports and Pentaho Report Designer for clear business insights.'
+              },
+              {
+                icon: <Globe className="w-8 h-8" />,
+                title: 'Modern Workflow & Tools',
+                desc: 'Continuously adopting tools and workflows to improve productivity, maintain high code quality, and support collaborative development.'
+              }
             ].map((skill, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                 <div className="text-blue-600 mb-4">{skill.icon}</div>
@@ -103,49 +114,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* Projects Section */}
-      {/* <section id="projects" className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-16">My Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                title: 'Digital Library',
-                desc: 'A comprehensive digital library application for managing and accessing books.',
-                image: '/annisa-s-portfolio/images/digital-library.PNG',
-                link: 'https://annisacode.github.io/digital-library/'
-              },
-              {
-                title: 'Reminder App',
-                desc: 'Never miss an important task with our easy-to-use reminder application',
-                image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=800&h=600',
-                link: 'https://annisacode.github.io/Reminder-App/'
-              },
-              {
-                title: 'POS System',
-                desc: 'An efficient Point of Sale system for sales management.',
-                image: '/annisa-s-portfolio/images/pos-system.PNG',
-                link: 'https://annisacode.github.io/POS-system/'
-              }
-            ].map((project, index) => (
-              <div key={index} className="hidden-element group">
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  <div className="relative overflow-hidden rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                    <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                      <div className="absolute bottom-0 p-6 text-white">
-                        <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                        <p className="text-sm">{project.desc}</p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
 
       {/* Projects Section */}
       <section id="projects" className="py-20 bg-white">
@@ -203,7 +171,7 @@ function App() {
             {[
               {
                 quote: "Annisa is a hard-working individual who learns quickly. Her ability to adapt and deliver results in a short amount of time is impressive. She's a valuable asset to any team.",
-                author: "Senior Computer Programmer",
+                author: "Senior Programmer",
                 role: "Polibatam Software Team"
               },
               {
@@ -213,7 +181,7 @@ function App() {
               },
               {
                 quote: "Annisa has been an incredible assistant, providing valuable support across various areas. Her diverse skill set and willingness to help make her an invaluable member of the team.",
-                author: "Tech Company Founder",
+                author: "Senior Web Developer",
                 role: "Growing Tech Company"
               }
             ].map((testimonial, index) => (
