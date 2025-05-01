@@ -125,7 +125,7 @@ function App() {
                 title: "Preventive Maintenance FBMS 2 BP Batam",
                 type: "Professional Project",
                 period: "Jan 2024 - Dec 2024",
-                company: "PT Inti Digital Madani",
+                company: "Outsource to PT Inti Digital Madani",
                 description: "Website maintenance project ensuring functionality, responsiveness, and visual appeal. Implemented updates, optimized performance, and resolved technical issues while collaborating with cross-functional teams.",
                 image: '/annisa-s-portfolio/images/FBMS.jpg',
                 skills: ["Maintenance", "Team Collaboration", "Web Development", "Performance Optimization"]
